@@ -1,11 +1,16 @@
-/* scree from 375 and higher */
+/* scree from 360 and higher */
 * {
     box-sizing: border-box;
 }
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 360px){
     body {
         background-color: hsl(220, 15%, 55%);
-        
+        width: auto;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
     
     #container {
@@ -15,7 +20,7 @@
         border-radius: 20px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 100px;
+        margin-top: 150px;
         margin-bottom: auto;
   
     }
